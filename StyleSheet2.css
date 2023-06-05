@@ -1,0 +1,121 @@
+﻿font-family: 'Playfair Display', serif;
+body {
+    background-color: #F1EDE8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    padding: 10px;
+    background-color: #C19270;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid transparent;
+    font-family: Cambria;
+    font-size: 20px;
+}
+
+    nav a:hover {
+        background-color: #C19270;
+        border-color: whitesmoke;
+    }
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Open Sans;
+}
+
+.logo__name {
+    margin-bottom: 5px;
+}
+
+.logo__location {
+    font-size: 14px;
+    font-weight: bold;
+}
+.image-block {
+    background-image: url('zyro-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    color: #343434;
+    font-size: 45px;
+    font-family: 'Playfair Display';
+    text-align: left;
+}
+  .container{
+    display: flex;
+    align-items: center;
+    background-image: url('path/to/your/background-image.jpg');
+    background-size: cover;
+    padding: 50px;
+}
+
+.left-section {
+    flex: 1;
+    margin-right: 10px;
+}
+
+    
+
+.right-section {
+    flex: 1;
+    padding: 0 50px;
+    background-color: #F1EDE8;
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: 'Playfair Display';
+    margin-right:10px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C19270;
+    color: black;
+    padding: 20px;
+    font-family: 'Playfair Display';
+}
+
+.left-section1 {
+    font-size: 14px;
+}
+
+.right-section1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-section img {
+    margin-left: 10%;
+}
+
+
